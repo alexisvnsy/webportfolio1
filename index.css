@@ -1,0 +1,125 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #001a33;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.sidenav a:hover {
+  color: #1a90ff;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mylogo {
+  width: 230px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#mylogo2 {
+  height: 50px;
+}
+
+#alex-name, #proj-sec-title, #galtitle {
+  color: #1a90ff;
+  font-family: "Audiowide", sans-serif;
+
+}
+
+#footer {
+      font-family: "Open Sans", sans-serif;
+
+}
+
+#about-me {
+  background-image: url(https://img.freepik.com/free-vector/black-technology-background_23-2149209062.jpg);
+  background-repeat: round;
+}
+
+#description {
+    font-family: "Open Sans", sans-serif;
+}
+
+#landingpage {
+  /*opacity:  .60*/
+  background-color: rgba(0, 0, 0, .60);
+}
+
+body {
+  background-image: url(https://wallpaperaccess.com/full/3122407.jpg);
+  background-size: cover;
+  background-repeat: round;
+  background-position: center;
+  font-family: "Trirong", serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+#fullstack {
+  font-size: 20px;
+   font-family: "Audiowide", sans-serif;
+    color: #1a90ff;
+}
+
+
+#tools {
+      font-family: "Audiowide", sans-serif;
+      color: #1a90ff;
+}
+
+#contact {
+        font-family: "Audiowide", sans-serif;
+        color: #1a90ff;
+}
+
+
+
+#container-proj {
+  background-color: rgba(0, 0, 0, .60);
+}
+
+#footer {
+  background-color: #001a33 ;
+}
